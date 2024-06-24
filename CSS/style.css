@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: #000000;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+/* Contact Us CSS */
+
+.h1contact {
+    font-size: 40px;
+    margin-top: 2%;
+    text-align: center;
+    cursor: pointer;
+}
+.h3contact {
+    margin-top: 60px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lia {
+    font-size: 20px;
+    margin-top: 60px;
+}
+.lib{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.lic {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 25px;
+}
+.lid {
+    margin-left: 25px;
+}
+.hrcontact{
+    margin-top: 3%;
+}
+.pcontact {
+    text-align: center;
+}
+.pa {
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 55px;
+}
+.pb {
+    text-align: left;
+    margin-left: 15px;
+}
+.pc {
+    margin-left: 10px;
+    font-size: medium;
+    margin-top: 15px;
+}
+
+
+
+
+/* About Us CSS */
+
+.h2about{
+    font-size: 25px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.h1about{
+    font-size: 40px;
+    margin-top: 2%;
+}
+.h3about {
+    margin-top: 60px;
+}
+.pabout {
+    font-size: 20px;
+    margin-top: 60px;
+}
+.hrabout {
+    margin-top: 3%;
+}
+.hrabout1 {
+    width: 100%;
+    margin-top: 1%;
+}
+.divabout {
+    padding-top: 0.1%;
+}

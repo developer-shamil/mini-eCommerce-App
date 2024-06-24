@@ -6,6 +6,32 @@ body {
 }
 
 
+
+/* Footer Section */
+
+footer {
+    background-color: rgb(73, 73, 73);
+    height: 60vh;
+    color: white;
+}
+
+footer h1 {
+    color: white;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+footer .col {
+    justify-content: space-between;
+    padding: 100px;
+    color: white;
+}
+
+footer .col .quick-qinks ol li a{
+    color: white;
+}
+
+
 /* Contact Us CSS */
 
 .h1contact {

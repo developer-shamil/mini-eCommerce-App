@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: #000000;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+
+/* Footer Section */
+
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+
+/* Contact Us CSS */
+
+.h1contact {
+    font-size: 40px;
+    margin-top: 2%;
+    text-align: center;
+    cursor: pointer;
+}
+.h3contact {
+    margin-top: 60px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lia {
+    font-size: 20px;
+    margin-top: 60px;
+}
+.lib{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.lic {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 25px;
+}
+.lid {
+    margin-left: 25px;
+}
+.hrcontact{
+    margin-top: 3%;
+}
+.pcontact {
+    text-align: center;
+}
+.pa {
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 55px;
+}
+.pb {
+    text-align: left;
+    margin-left: 15px;
+}
+.pc {
+    margin-left: 10px;
+    font-size: medium;
+    margin-top: 15px;
+}
+
+
+
+
+/* About Us CSS */
+
+.h2about{
+    font-size: 25px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.h1about{
+    font-size: 40px;
+    margin-top: 2%;
+}
+.h3about {
+    margin-top: 60px;
+}
+.pabout {
+    font-size: 20px;
+    margin-top: 60px;
+}
+.hrabout {
+    margin-top: 3%;
+}
+.hrabout1 {
+    width: 100%;
+    margin-top: 1%;
+}
+.divabout {
+    padding-top: 0.1%;
+}

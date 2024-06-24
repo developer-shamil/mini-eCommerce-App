@@ -15,11 +15,11 @@ async function getProducts() {
 getProducts();
 
 function ProductCard (p) {
-    return `<div class="card" style="width: 18rem;">
-  <img src="${p.image}" class="card-img-top" alt="...">
+    return `<div class="card mx-2 my-2" style="width: 18rem;">
+  <img height="250px" style="object-fit: contain;" src="${p.image}" class="card-img-top my-2" alt="...">
   <div class="card-body">
     <h5 class="card-title">${p.title}</h5>
-    <p class="card-text">${p.description}</p>
+    <p class="card-text">₹${p.price}</p>
     <a href="#" class="btn btn-primary">Add To Cart</a>
   </div>
 </div>`
